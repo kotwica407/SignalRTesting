@@ -1,0 +1,22 @@
+.right-section-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Full height of the right section */
+  }
+  
+  .upper-part {
+    flex: 1; /* Equal space for upper and lower */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #e0f7fa; /* Light background for differentiation */
+  }
+  
+  .lower-part {
+    flex: 1; /* Equal space for upper and lower */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f4c3; /* Light background for differentiation */
+  }
+  

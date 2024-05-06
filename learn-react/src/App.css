@@ -1,0 +1,32 @@
+.app-container {
+  display: flex;
+  height: 100vh; /* Use full height of the viewport */
+}
+
+.left-sidebar {
+  width: 25%; /* Sidebar occupies 25% of the width */
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.right-content {
+  width: 75%; /* Main content occupies the rest */
+  padding: 20px;
+}
+
+.broadcast-button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.issued-button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
